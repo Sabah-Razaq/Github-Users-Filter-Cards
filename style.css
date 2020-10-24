@@ -1,0 +1,55 @@
+body {
+  font-family: 'Patrick Hand', cursive !important;
+  background-image: url(Images/Capture.PNG);
+  background-repeat-x: no-repeat;
+  background-position-x: right;
+  background-color: #040404a8 !important;
+  background-blend-mode: color-burn;
+}
+
+h1 {
+  color: white !important;
+  font-size: 60px !important;
+}
+
+input {
+  width: 300px !important;
+  border: 2px solid #ffc100 !important;
+}
+
+.input-group-prepend {
+  border: 2px solid #ffc100 !important;
+}
+
+em {
+  color: #ffc100;
+}
+
+i {
+  font-size: 20px;
+}
+
+.rounded-circle {
+  border: 3px solid #ffc100;
+}
+
+h2 {
+  text-transform: uppercase;
+}
+
+.card {
+  border: 2px solid black !important;
+}
+
+@media (max-width: 640px) {
+  h1 {
+    font-size: 30px !important;
+  }
+  #display {
+    width: 60% !important;
+  }
+  input {
+    width: 100px !important;
+    margin-left: 0px !important;
+  }
+}
